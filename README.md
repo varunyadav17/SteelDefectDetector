@@ -51,7 +51,7 @@ It will start listening for incoming requests on localhost:5000
 
 Machine Learning Model –
 
-Model is built using CNN and neural networks and it has accuracy of 94% with loss of 0.0214. Model file is saved as hdf5 file which is loaded by flask webservice and used for live predictions requested by React frontend
+Model is built using CNN and neural networks and it has accuracy of 94% with loss of 0.0214. Model file is saved as h5 file which is loaded by flask webservice and used for live predictions requested by React frontend
 
 
 Stripe –

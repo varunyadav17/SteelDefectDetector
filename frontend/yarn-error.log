@@ -1,0 +1,71 @@
+Arguments:
+  C:\Program Files\nodejs\node.exe C:\Users\varun.yadav\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add stripe-react-elements
+
+PATH:
+  C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64\Scripts;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Anaconda3_64;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Anaconda3_64\Scripts;C:\Users\varun.yadav\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2\bin;C:\Users\varun.yadav\AppData\Roaming\npm;C:\Users\varun.yadav\AppData\Local\atom\bin;C:\Users\varun.yadav\AppData\Roaming\Python\Python37\Scripts;
+
+Yarn version:
+  1.19.0
+
+Node version:
+  10.16.3
+
+Platform:
+  win32 x64
+
+Trace:
+  Error: https://registry.yarnpkg.com/stripe-react-elements: Not found
+      at Request.params.callback [as _callback] (C:\Users\varun.yadav\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66918:18)
+      at Request.self.callback (C:\Users\varun.yadav\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140539:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (C:\Users\varun.yadav\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141511:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (C:\Users\varun.yadav\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141433:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest:
+  {
+    "name": "steeldefecttest",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "axios": "^0.19.0",
+      "material-ui": "^0.20.2",
+      "react": "^16.10.1",
+      "react-dom": "^16.10.1",
+      "react-dropzone": "^10.1.9",
+      "react-scripts": "3.1.2",
+      "react-tap-event-plugin": "^3.0.3",
+      "superagent": "^5.1.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest:
+  No manifest
+
+Lockfile:
+  No lockfile
